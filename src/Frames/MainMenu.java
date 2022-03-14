@@ -41,14 +41,7 @@ public class MainMenu extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated
     // Code">//GEN-BEGIN:initComponents
     private void initComponents() {
-
-        this.setUndecorated(true);
-        this.addComponentListener(new ComponentAdapter() {
-            public void componentResized(Component e) {
-                setShape(new RoundRectangle2D.Double(0, 0, getWidth(), getHeight(), 80, 80));
-            }
-        });
- 
+        this.setLocationRelativeTo(null);
         jScrollPane1 = new javax.swing.JScrollPane();
         MainTable = new javax.swing.JTable();
         jLabel1 = new javax.swing.JLabel();
